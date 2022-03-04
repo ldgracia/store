@@ -8,11 +8,15 @@ var indexRouter = require('./routes/index');
 
 var servicio1Router = require('./routes/servicio1');
 <<<<<<< HEAD
+var servicio4Router = require('./routes/servicio4');
+=======
+<<<<<<< HEAD
 var servicio2Router = require('./routes/servicio2');
 =======
 var servicio10Router = require('./routes/servicio10');
 var servicio3 = require('./routes/servicio3');
 >>>>>>> c541a2bb2e2fa8284b8993e97f715e598c899d15
+>>>>>>> f141e69f1f2c5c112279e16a6d35d92d2f2b00cf
 var usersRouter = require('./routes/users');
 
 
@@ -33,11 +37,15 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/servicio1', servicio1Router);
 <<<<<<< HEAD
+app.use('/servicio4', servicio4Router);
+=======
+<<<<<<< HEAD
 app.use('/servicio2', servicio2Router);
 =======
 app.use('/servicio10', servicio10Router);
 app.use('/servicio3', servicio3);
 >>>>>>> c541a2bb2e2fa8284b8993e97f715e598c899d15
+>>>>>>> f141e69f1f2c5c112279e16a6d35d92d2f2b00cf
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
